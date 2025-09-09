@@ -19,6 +19,7 @@ public class PerformanceAspect {
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long startTime = System.currentTimeMillis();
 
+        // joinPoint.proceed()가 실제 Target 메소드를 실행시키는  부분
         Object result = joinPoint.proceed();
 
         long endTime = System.currentTimeMillis();
