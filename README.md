@@ -5,7 +5,7 @@ reproduces the 'self-invocation' problem and solves it by refactoring the intern
 best-practice solution(branch : fix/self-invocation)
 
 Blog
-> Related Blog Post (To be written) (https://your-blog-link.com)
+> [link](https://2eungwoo.tistory.com/entry/%EC%9A%B0%EB%A6%AC%EB%8A%94-%EC%9D%B4%EB%AF%B8-AOP%EB%A5%BC-%EC%95%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4)
 
 etc
 > updated in 2025.09.09
