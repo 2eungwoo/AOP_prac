@@ -1,13 +1,15 @@
 package study.aop_prac;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+@Slf4j
 @Service
 public class InternalService {
 
     @LogExecutionTime
     public void callInternal() {
-        System.out.println("callInternal() 메소드 실행");
+        log.info("callInternal() 메소드 실행");
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {
