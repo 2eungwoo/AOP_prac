@@ -14,6 +14,7 @@ public class MyService {
         log.info("callExternal() 메소드 실행");
         try {
             Thread.sleep(1000);
+            log.info("callExternal() 메소드 try 내부");
             this.callInternal(); // 내부 호출
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -27,6 +28,7 @@ public class MyService {
         log.info("callInternal() 메소드 실행");
         try {
             Thread.sleep(500);
+            log.info("callInternal() 메소드 try 내부");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
