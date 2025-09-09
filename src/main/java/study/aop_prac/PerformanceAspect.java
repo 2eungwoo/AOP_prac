@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Aspect
 @Component
-public class PerfAspect {
+public class PerformanceAspect {
 
     @Pointcut("@annotation(study.aop_prac.LogExecutionTime)")
     private void logExecutionTimePointcut() {}

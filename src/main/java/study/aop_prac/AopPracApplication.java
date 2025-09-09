@@ -15,7 +15,7 @@ public class AopPracApplication {
 	@Bean
 	public CommandLineRunner run(MyService myService) {
 		return args -> {
-			myService.doSomething();
+			myService.callExternal();
 		};
 	}
 
